@@ -6,13 +6,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.40108,
-                    -8.30326
+                    112.94393,
+                    -8.01879
                 ]
             },
             "properties": {
-                "title": "Desa Senaru",
-                "icon": "car"
+                "title": "Ranu Pane",
+                "icon": "campsite"
             }
         },
         {
@@ -20,12 +20,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.40285,
-                    -8.31681
+                    112.93355,
+                    -8.02628
                 ]
             },
             "properties": {
-                "title": "Jebak Gawah",
+                "title": "Landengan Dowo",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.93742,
+                    -8.0304
+                ]
+            },
+            "properties": {
+                "title": "Watu Rejeng",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91866,
+                    -8.04688
+                ]
+            },
+            "properties": {
+                "title": "Ranu Kumbolo",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91686,
+                    -8.05194
+                ]
+            },
+            "properties": {
+                "title": "Tanjakan Cinta",
                 "icon": "attraction"
             }
         },
@@ -34,12 +76,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.40181,
-                    -8.32379
+                    112.9178,
+                    -8.06201
                 ]
             },
             "properties": {
-                "title": "Pos 1 Senaru",
+                "title": "Oro Oro Ombo",
                 "icon": "campsite"
             }
         },
@@ -48,54 +90,12 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.40223,
-                    -8.33716
+                    112.91784,
+                    -8.06251
                 ]
             },
             "properties": {
-                "title": "Pos 1 Extra",
-                "icon": "campsite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.39647,
-                    -8.34642
-                ]
-            },
-            "properties": {
-                "title": "Pos 2 Senaru",
-                "icon": "campsite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.41873,
-                    -8.39144
-                ]
-            },
-            "properties": {
-                "title": "Pos 3 Mondokan Lokak",
-                "icon": "campsite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.44083,
-                    -8.38946
-                ]
-            },
-            "properties": {
-                "title": "Cemara Lima",
+                "title": "Taman Bunga Lavender",
                 "icon": "attraction"
             }
         },
@@ -104,13 +104,13 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.44235,
-                    -8.39002
+                    112.91647,
+                    -8.06533
                 ]
             },
             "properties": {
-                "title": "Kawah Senaru",
-                "icon": "attraction"
+                "title": "Cemoro Kandang",
+                "icon": "campsite"
             }
         },
         {
@@ -118,12 +118,54 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.4585,
-                    -8.41139
+                    112.92063,
+                    -8.09004
                 ]
             },
             "properties": {
-                "title": "Puncak Rinjani",
+                "title": "Jambangan",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91548,
+                    -8.07054
+                ]
+            },
+            "properties": {
+                "title": "Kalimati",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.91958,
+                    -8.09404
+                ]
+            },
+            "properties": {
+                "title": "Arcopodo",
+                "icon": "campsite"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    112.92198,
+                    -8.10778
+                ]
+            },
+            "properties": {
+                "title": "Puncak Mahameru",
                 "icon": "mountain"
             }
         }
