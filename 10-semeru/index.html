@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Semeru</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.7.0/mapbox-gl.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #map {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        $.getJSON("track.json", function (trackGeoJson) {
+            $.getJSON("points.json", function (pointsGeoJson) {
+                onDataReady(trackGeoJson, pointsGeoJson);
+            });
+        });
+        
+        function onDataReady(trackGeoJson, pointsGeoJson) {
+            mapboxgl.accessToken = 'pk.eyJ1Ijoic2V0YXBhazIwMTkiLCJhIjoiY2szdzJhdGx3MDVpaDNpcGltZ3luNDUyMSJ9.lwsV4FsgU1SfbS6QRFlO_A';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/outdoors-v11',
+                center: [112.94482, -8.06805],
+                zoom: 12
+            });
+
+            map.on('load', function () {
+                map.addSource('route', {
+                    'type': 'geojson',
+                    'data': trackGeoJson
+                });
+                map.addLayer({
+                    'id': 'route',
+                    'type': 'line',
+                    'source': 'route',
+                    'layout': {
+                        'line-join': 'round',
+                        'line-cap': 'square'
+                    },
+                    'paint': {
+                        'line-color': '#e25c64',
+                        'line-width': 8
+                    }
+                });
+                map.addSource('points', {
+                    'type': 'geojson',
+                    'data': pointsGeoJson
+                });
+                map.addLayer({
+                    'id': 'points',
+                    'type': 'symbol',
+                    'source': 'points',
+                    'layout': {
+                        // get the icon name from the source's "icon" property
+                        // concatenate the name to get an icon from the style's sprite sheet
+                        'icon-image': ['concat', ['get', 'icon'], '-15'],
+                        // get the title name from the source's "title" property
+                        'text-field': ['get', 'title'],
+                        'text-font': ['Open Sans Semibold', 'Arial Unicode MS Bold'],
+                        'text-offset': [0, 0.6],
+                        'text-anchor': 'top'
+                    }
+                });
+            });
+        }
+    </script>
+
+</body>
+
+</html>
