@@ -6,126 +6,66 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    116.40108,
-                    -8.30326
+                    101.264129,
+                    -1.696328
                 ]
             },
             "properties": {
-                "title": "Desa Senaru",
+                "title": "Puncak Kerinci",
+                "icon": "attraction"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.267256,
+                    -1.705483
+                ]
+            },
+            "properties": {
+                "title": "Pos 3",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.267941,
+                    -1.708972
+                ]
+            },
+            "properties": {
+                "title": "Pos 2",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.263637,
+                    -1.7200006
+                ]
+            },
+            "properties": {
+                "title": "Pos 1",
+                "icon": "campsite"
+            }
+        },{
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    101.268697,
+                    -1.767419
+                ]
+            },
+            "properties": {
+                "title": "Pos Masuk Basecamp",
                 "icon": "car"
             }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.40285,
-                    -8.31681
-                ]
-            },
-            "properties": {
-                "title": "Jebak Gawah",
-                "icon": "attraction"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.40181,
-                    -8.32379
-                ]
-            },
-            "properties": {
-                "title": "Pos 1 Senaru",
-                "icon": "campsite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.40223,
-                    -8.33716
-                ]
-            },
-            "properties": {
-                "title": "Pos 1 Extra",
-                "icon": "campsite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.39647,
-                    -8.34642
-                ]
-            },
-            "properties": {
-                "title": "Pos 2 Senaru",
-                "icon": "campsite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.41873,
-                    -8.39144
-                ]
-            },
-            "properties": {
-                "title": "Pos 3 Mondokan Lokak",
-                "icon": "campsite"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.44083,
-                    -8.38946
-                ]
-            },
-            "properties": {
-                "title": "Cemara Lima",
-                "icon": "attraction"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.44235,
-                    -8.39002
-                ]
-            },
-            "properties": {
-                "title": "Kawah Senaru",
-                "icon": "attraction"
-            }
-        },
-        {
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    116.4585,
-                    -8.41139
-                ]
-            },
-            "properties": {
-                "title": "Puncak Rinjani",
-                "icon": "mountain"
-            }
-        }
+        }        
     ]
 }
